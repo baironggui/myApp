@@ -1,0 +1,95 @@
+#Daka_Title{
+  text-align: center;
+}
+
+
+
+.card1{
+  background-color: #ffabd6;
+  opacity: 0.9;
+  position: absolute;
+  height: 12%;
+  bottom: 1%;
+  left: 3%;
+  width: 24%;
+}
+.card2{
+  background-color: #faffb0;
+  position: absolute;
+  height: 12%;
+  bottom: 1%;
+  left: 33%;
+  width: 24%;
+}
+.card3{
+  background-color: #faffb0;
+  position: absolute;
+  height: 12%;
+  bottom: 1%;
+  left: 63%;
+  width: 24%;
+}
+.child_card{
+  background-color: #ff8c82;
+  position: absolute;
+  height: 22%;
+  top: 10%;
+  left: 3%;
+  width: 38%;
+}
+
+.Bt1{
+  background-color: #f4f4f4;
+  position: absolute;
+  width: 14%;
+  -webkit-text-fill-color: #ebff5f;
+  font-size: 100%;
+  height: 100%;
+  right: 10%;
+}
+#child_card{
+  width: 100%;
+  height: 25%;
+  background-color: #f4f4f4;
+}
+
+.all_screen{
+  background: url("../assets/imgs/img1.jpg") repeat no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+#add_new{
+  position: center;
+  font-size: large;
+  background: none;
+  left: 70%;
+
+}
+#save{
+
+  left: 70%;
+
+}
+#cancel{
+  left: 20%;
+
+}
+
+.bg{
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.header-set{
+  background-color: #f53d3d;
+}
+
+#edit_head{
+
+  font-size: 200%;
+  top: 100%;
+
+}
+
+
+
+

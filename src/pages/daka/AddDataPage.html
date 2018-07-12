@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar class = 'centerTitle'>
+    <button ion-button outline  id="add_new"  (click)="editNewEvent()" >新建</button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+<ion-item *ngFor="let item of this.items" >
+
+  <ion-card (click) = 'get_Data()'>
+    <ion-item style="background-color: #a6c0fe">
+    时间：{{this.time}}
+    </ion-item>
+    <ion-item style="background-color: #32db64">
+    内容：{{this.text}}
+    </ion-item>
+    <ion-item style="background-color: #007069">
+    地点：{{this.address}}
+    </ion-item>
+
+  </ion-card>
+
+
+</ion-item>
+
+</ion-list>
+</ion-content>
+
+
